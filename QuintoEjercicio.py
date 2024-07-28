@@ -7,7 +7,6 @@ while numero != 0:
     if numero_uno == 0: break
     numero_dos = int(input("Ingrese un segundo numero: "))
     if numero_dos == 0: break
-
     if numero_uno > numero_dos:
         print("El número uno ", numero_uno, "es mayor que el numero dos ", numero_dos)
     else:
